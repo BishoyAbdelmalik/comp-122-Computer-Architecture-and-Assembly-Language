@@ -55,6 +55,7 @@ mov r5,#0 ;;count how many ints in the file
 
 ;;read first value 
 swi SWI_RdInt 
+
 ;;exit if end of file reached
 bcs emptyOrInvalidFile	
 ;; add 1 to r5
